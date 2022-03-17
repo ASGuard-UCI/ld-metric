@@ -99,7 +99,7 @@ Please see the following notebooks.
 * `notebooks/Comma2k19LD_attack_old_metric.ipynb`
 
 
-### Citation
+# Citation
 If you use our code in your research, please cite:
 
 ```bibtex
