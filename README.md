@@ -21,17 +21,17 @@ To more effectively measure the performance of lane detection models when used f
 
 Link: https://www.kaggle.com/tkm2261/comma2k19-ld/code
 
-To evaluate both the conventional metrics and the downstream task-centric metrics E2E-LD and PSLD on the same dataset, we need both lane line annotations and driving information (e.g., position, steering angle, and velocity). Unfortunately, there is no existing dataset that satisfies the requirements to our best knowledge. Thus, we create a new dataset, coined Comma2k19-LD based on [Comma2k19 dataset](https://github.com/commaai/comma2k19).
+To evaluate both the conventional metrics and the downstream task-centric metrics E2E-LD and PSLD on the same dataset, we need both lane line annotations and driving information (e.g., position, steering angle, and velocity). Unfortunately, there is no existing dataset that satisfies the requirements to our best knowledge. Thus, we create a new dataset, coined Comma2k19-LD, based on [Comma2k19 dataset](https://github.com/commaai/comma2k19).
 
 ## Results
 
 ![Tahle3](data/figures/table3.png)
 
-Our results show that the conventional metrics have strongly negative correlations ($\leq$ -0.55) with E2E-LD, meaning that some recent improvements purely targeting the conventional metrics may not have led to meaningful improvements in autonomous driving, but rather may actually have made it worse by overfitting to the conventional metrics.
+Our results show that the conventional metrics have strongly negative correlations (<= -0.55) with E2E-LD, meaning that some recent improvements purely targeting the conventional metrics may not have led to meaningful improvements in autonomous driving, but rather may actually have made it worse by overfitting to the conventional metrics.
 
 ![Tahle4](data/figures/table4.png)
 
-On the contrary, PSLD shows statistically significant strong positive correlations ($\geq$ 0.38) with E2E-LD. As a result, the conventional metrics tend to overestimate less robust models. We hope that our study will help the community achieve more downstream task-aware evaluations for lane detection.
+On the contrary, PSLD shows statistically significant strong positive correlations (>= 0.38) with E2E-LD. As a result, the conventional metrics tend to overestimate less robust models. We hope that our study will help the community achieve more downstream task-aware evaluations for lane detection.
 
 # Reproduction
 
