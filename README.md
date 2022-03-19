@@ -7,7 +7,7 @@ This repository holds the source code for "Towards Driving-Oriented Metric for L
 
 ![motivation](data/figures/poc.png)
 
-The above figure is examples of lane detection results and the accuracy metric in benign and adversarial attack scenarios on TuSimple Challenge dataset. As shown, the conventional accuracy metric does not necessarily indicate drivability if used in autonomous driving, the core downsteam task. For example, SCNN always has higher accuracy than PolyLaneNet, but its detection results are making it much harder to achieve lane centering. To evaluate the validity of the metrics, we conduct a large-scale empirical study with 4 major types of lane detection approaches on the TuSimple dataset and our newly constructed dataset Comma2k19-LD.
+The above figure shows examples of lane detection results and the accuracy metric in benign and adversarial attack scenarios on the TuSimple Challenge dataset. As shown, the conventional accuracy metric does not necessarily indicate drivability if used in autonomous driving, the core downsteam task. For example, SCNN always has higher accuracy than PolyLaneNet, but its detection results are making it much harder to achieve lane centering. To evaluate the validity of the metrics, we conduct a large-scale empirical study with 4 major types of lane detection approaches on the TuSimple dataset and our newly constructed dataset Comma2k19-LD.
 
 ## New metric: E2E-LD and PSLD
 
